@@ -1,0 +1,23 @@
+{
+    "name": "chrissnyder2337/2022-advent-of-code",
+    "description": "2022 Advent of Code solutions",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AdventOfCode\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris Snyder",
+            "email": "chris@chrissnyder.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/console": "^6.2",
+        "symfony/dependency-injection": "^6.2",
+        "symfony/config": "^6.2",
+        "symfony/yaml": "^6.2"
+    }
+}
